@@ -5,7 +5,7 @@ if(!file.exists("curl.o") && !file.exists("../.deps/libcurl/include/curl/curl.h"
   } else if(grepl("clang", Sys.getenv('R_COMPILED_BY'))){
     "https://github.com/r-windows/bundles/releases/download/curl-8.14.20261014/curl-8.14.20261014-clang-x86_64.tar.xz"
   } else if(getRversion() >= "4.2") {
-    "https://github.com/r-windows/bundles/releases/download/curl-8.14.20261014/curl-8.14.20261014-ucrt-x86_64.tar.xz"
+    "https://github.com/waiteb5/bundles/releases/download/curl-8.23.0/curl-8.23.0-ucrt-x86_64.tar.xz"
   } else {
     "https://github.com/rwinlib/libcurl/archive/v7.84.0.tar.gz"
   }
